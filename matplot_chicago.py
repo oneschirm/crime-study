@@ -183,11 +183,11 @@ def main():
         plot_streets(m)
         label_streets()
 
-        output_file_name = '%s_%s.png' % (AREA,str(i))
+        output_file_name = '%s/%s_%s.png' % (AREA,AREA,str(i))
         ax.text(0.01,0.01,'https://github.com/oneschirm',color='white',\
         fontsize=12,transform=ax.transAxes)
         ax.text(0.9, 0.01, str(i),color='white', fontsize=20,transform=ax.transAxes)
-        plt.savefig(output_file_name, dpi=150)
+        plt.savefig(output_file_name, dpi=150,bbox_inches='tight')
 
 if __name__ == '__main__':
     main()
