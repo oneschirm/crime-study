@@ -12,6 +12,6 @@ http://oneschirm.github.io/crime-study/
 
 [Streets Shapefile](https://data.cityofchicago.org/Transportation/Street-Center-Lines/6imu-meau)
 
-The Chicago Police Department uses a modified form of the FBI's Uniform Crime Reporting codes. The FBI details this system [here.](www2.fbi.gov/ucr/handbook/ucrhandbook04.pdf)
+The Chicago Police Department uses a modified form of the FBI's Uniform Crime Reporting codes. The FBI details this system [here.](http://www2.fbi.gov/ucr/handbook/ucrhandbook04.pdf)
 
 Note: You may have issues using the shapefiles if you do not convert x/y pairs to WGS84 before use in Python. 
