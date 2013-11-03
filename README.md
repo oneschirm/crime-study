@@ -2,6 +2,13 @@ A simple Python program to plot crime data using matplotlib and shapefile.
 
 ![2008](https://raw.github.com/oneschirm/crime-study/master/Cabrini_Green/Cabrini_Green_2008.png)
 
+GIFs created using ImageMagick.
+
+Installed via macports: `sudo port install ImageMagick`
+
+Then used as follows:
+`convert -delay 100 *.png Cabrini_output.gif`
+
 More info:
 http://oneschirm.github.io/crime-study/
 
